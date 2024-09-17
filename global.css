@@ -1,0 +1,156 @@
+body {
+    background-image: url(./assets/wallpaper3.jpg);
+    background-size: cover; 
+    background-position: right; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 31px;
+}
+
+.logo-img{
+    height: 120px;
+    width: 15%;
+    padding: 12px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    margin-top: -68px;
+    margin-left: 65px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: red;
+}
+
+.character-img{
+    height: 300px; 
+    width: auto; 
+}
+
+.character1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+}
+
+.desc{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    top: 325px; left: 464px;
+    border-style: solid;
+    border-color: white;
+    background-image: url(https://preview.redd.it/hagagfnwpley.png?width=1080&crop=smart&auto=webp&s=579b31736e4035f44f0ae036c8d979472766759a);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.sword-img{
+    display: flex;
+    height: 237px;
+    width: 15%;
+    border-style: solid;
+    border-color: white;
+    background-image: url(https://preview.redd.it/hagagfnwpley.png?width=1080&crop=smart&auto=webp&s=579b31736e4035f44f0ae036c8d979472766759a);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-left: 30px;
+    position: absolute;
+    top: 320px; left: 1200px;
+}
+
+.descdrag{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    top: 499px; left: 1300px;
+}
+
+.amigo{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 853px; left: 364px;
+    border-style: solid;
+    border-color: white;
+    background-image: url(https://preview.redd.it/hagagfnwpley.png?width=1080&crop=smart&auto=webp&s=579b31736e4035f44f0ae036c8d979472766759a);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}
+
+.kentarou{
+    border-radius: 50%;
+    padding: 30px;
+    height: 300px;
+    width: auto;
+}
+
+.homenagem{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: absolute;
+    top:1037px; left: 52px;
+}
+
+.form-container {
+    position: absolute;
+    bottom: -390px;
+    right: 60px;
+    background-image: url(https://preview.redd.it/hagagfnwpley.png?width=1080&crop=smart&auto=webp&s=579b31736e4035f44f0ae036c8d979472766759a);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y:center ;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.form-container label {
+    color: white;
+}
+
+.form-container input[type="submit"] {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
